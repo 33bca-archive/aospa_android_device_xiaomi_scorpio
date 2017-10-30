@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common msm8996-common
--include device/xiaomi/msm8996-common/BoardConfigCommon.mk
+# inherit from common tree
+-include device/xiaomi/common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/scorpio
 
